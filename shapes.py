@@ -33,7 +33,7 @@ class Triangle(Shape):
           self.l = l
 
     def Area(self):
-         return (1//2) * self.b * self.h
+         return 0.5 * self.b * self.h
 
     def Perimeter(self):
          return self.l + self.b + self.h
